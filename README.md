@@ -1,10 +1,12 @@
-專案說明文件 (README)
+**##專案說明文件 (README)**
+=
 
-ADB/Fastboot GUI 主要功能
+##ADB/Fastboot GUI 主要功能
 
 本專案是一個簡潔高效的 ADB/Fastboot 圖形化使用者介面工具，旨在協助使用者輕鬆執行 Android 設備的調試和系統操作，無需記憶複雜的命令。
 
-1. 設備狀態與連線管理
+##1. 設備狀態與連線管理
+=
 
 即時狀態顯示： 自動偵測並顯示所有連接的 ADB (device/unauthorized) 和 Fastboot 設備。
 
@@ -12,7 +14,8 @@ ADB/Fastboot GUI 主要功能
 
 Server 控制： 一鍵啟動或停止 ADB Server 服務。
 
-2. ADB 設備操作 (ADB 模式)
+##2. ADB 設備操作 (ADB 模式)
+=
 
 設備重啟： 支援正常重啟、重啟到 Recovery 模式、重啟到 Bootloader 模式。
 
@@ -30,7 +33,8 @@ Logcat 顯示： 彈出新視窗，即時顯示 Logcat 輸出流。
 
 螢幕鏡像： 啟動 Scrcpy（需要外部依賴）。
 
-3. 設備資訊與診斷
+##3. 設備資訊與診斷
+=
 
 系統屬性 (getprop)： 顯示設備型號、Android 版本、API 等級、CPU 資訊、內核版本等核心系統屬性。
 
@@ -48,11 +52,13 @@ Wi-Fi 連接狀態
 
 內存使用概況
 
-4. ADB Shell Console
+##4. ADB Shell Console
+=
 
 提供獨立的分頁和輸出區域，供使用者輸入並執行自定義的 adb shell 命令。
 
-5. Fastboot 核心功能 (Fastboot 模式)
+##5. Fastboot 核心功能 (Fastboot 模式)
+=
 
 高風險操作確認： Fastboot 命令執行前強制要求使用者進行文字確認，以防止誤操作。
 
@@ -62,9 +68,10 @@ Bootloader 控制：
 
 執行 Fastboot 鎖定 (fastboot flashing lock)。
 
-獨立製作聲明
+##獨立製作聲明
+=
 
-本專案的所有功能、程式碼和設計，皆由 Lifer_Lighdow 獨立製作與完成。
+本專案的所有功能、程式碼和設計，皆由 ***Lifer_Lighdow*** 獨立製作與完成。
 
 本文件將作為專案的起始說明，供使用者參考。
 
